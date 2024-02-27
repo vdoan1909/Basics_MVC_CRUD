@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\Models\Course;
 
-class CourseController extends BaseController
+class CourseController extends BaseController implements InterfaceController
 {
     private $course;
 
